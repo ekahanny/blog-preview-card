@@ -3,15 +3,14 @@
     padding: 0px;
 }
 
+
 body {
     background-color: hsl(47, 88%, 63%);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    
+    min-height: 100vh;  
 }
-
 
 .card{
     background-color: white;
@@ -21,45 +20,61 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 25rem;
-    max-width: 22em;
-    padding: 10px;
-
-    
+    max-width: 18em;
+    padding: 17px 15px 8px 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 7px 7px;
 }
 
-.card-content{
-    margin:  15px;
-
+.card-img{
+    border-radius: 8px;
+    max-width: 100%;
 }
 
 .btn-text {
     background-color: hsl(47, 88%, 63%);
-    font-weight: 700;
-    font-size: 13px;
-    padding: 8px;
+    max-height: 10px;
+    display: flex;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 5px 12px 8px 12px;
     border-radius: 5px;
     display: inline-block;
+    margin-top: 17px;
 }
 
 .date-published {
-    margin-top: 15px;
-    font-size: 14px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 600;
 
 }
 
 .title {
-    margin-top: 17px;
+    margin-top: 15px;
 }
 
 .card-desc {
     color: hsl(0, 0%, 50%);
     margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .img-profile {
-    width: 40px;
+    width: 25px;
 }
 
 .profile-name{
     font-weight: 800;
+    font-size: 11px;
+}
+
+.profile {
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
