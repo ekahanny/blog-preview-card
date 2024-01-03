@@ -21,7 +21,7 @@ body {
     justify-content: center;
     min-height: 25rem;
     max-width: 18em;
-    padding: 17px 15px 8px 15px;
+    padding: 19px 17px 8px 17px;
     border: 1px solid black;
     border-radius: 15px;
     box-shadow: 7px 7px;
@@ -64,12 +64,12 @@ body {
 }
 
 .img-profile {
-    width: 25px;
+    width: 27px;
 }
 
 .profile-name{
     font-weight: 800;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .profile {
